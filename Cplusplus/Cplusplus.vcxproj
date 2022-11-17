@@ -129,7 +129,6 @@
   <ItemGroup>
     <ClCompile Include="Day3_calculation_basic.cpp" />
     <ClCompile Include="Day4_float.cpp" />
-    <ClCompile Include="Day5.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

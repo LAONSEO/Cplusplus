@@ -24,5 +24,8 @@
     <ClCompile Include="Day5_divisor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day6_OperatorCalculation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

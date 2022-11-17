@@ -15,13 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Day3_calculation_basic.cpp">
+    <ClCompile Include="Day3_Basic_Calculation_.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day4_float.cpp">
+    <ClCompile Include="Day4_Float.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day5_divisor.cpp">
+    <ClCompile Include="Day5_Divisor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Day6_OperatorCalculation.cpp">

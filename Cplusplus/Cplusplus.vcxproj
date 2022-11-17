@@ -127,9 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Day3_Basic_Calculation_.cpp" />
-    <ClCompile Include="Day4_Float.cpp" />
-    <ClCompile Include="Day5_Divisor.cpp" />
+    <ClCompile Include="Day3_BasicCalculation_.cpp" />
+    <ClCompile Include="Day4_Float_A.cpp" />
+    <ClCompile Include="Day5_Divisor_A.cpp" />
     <ClCompile Include="Day6_OperatorCalculation.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

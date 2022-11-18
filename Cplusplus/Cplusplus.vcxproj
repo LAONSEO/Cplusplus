@@ -131,6 +131,7 @@
     <ClCompile Include="Day4_Float.cpp" />
     <ClCompile Include="Day5_Divisor.cpp" />
     <ClCompile Include="Day6_OperatorCalculation.cpp" />
+    <ClCompile Include="Day7_DungeonEntryCount.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

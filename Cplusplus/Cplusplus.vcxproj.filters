@@ -36,5 +36,8 @@
     <ClCompile Include="Day8_EvenOrOdd_Type1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day8_EvenOrOdd_Type2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

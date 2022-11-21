@@ -17,7 +17,7 @@ int main()
     {
         if (nRemainder == 0)
             printf("even.\n");
-        if (nRemainder == 1)
+        else if (nRemainder == 1)
             printf("odd.\n");
     }
 

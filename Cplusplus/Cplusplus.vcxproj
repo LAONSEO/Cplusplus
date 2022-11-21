@@ -131,8 +131,8 @@
     <ClCompile Include="Day4_Float.cpp" />
     <ClCompile Include="Day5_Divisor.cpp" />
     <ClCompile Include="Day6_OperatorCalculation.cpp" />
-    <ClCompile Include="Day7_1_OverwatchTier.cpp" />
-    <ClCompile Include="Day7_DungeonEntryCount.cpp" />
+    <ClCompile Include="Day7_2_OverwatchTier.cpp" />
+    <ClCompile Include="Day7_1_DungeonEntryCount.cpp" />
     <ClCompile Include="Day8_EvenOrOdd_Type1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

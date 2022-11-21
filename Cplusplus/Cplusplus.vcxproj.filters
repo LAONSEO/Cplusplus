@@ -27,10 +27,10 @@
     <ClCompile Include="Day6_OperatorCalculation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day7_DungeonEntryCount.cpp">
+    <ClCompile Include="Day7_1_DungeonEntryCount.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day7_1_OverwatchTier.cpp">
+    <ClCompile Include="Day7_2_OverwatchTier.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Day8_EvenOrOdd_Type1.cpp">

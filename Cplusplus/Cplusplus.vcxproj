@@ -135,6 +135,8 @@
     <ClCompile Include="Day7_1_DungeonEntryCount.cpp" />
     <ClCompile Include="Day8_EvenOrOdd_Type1.cpp" />
     <ClCompile Include="Day8_EvenOrOdd_Type2.cpp" />
+    <ClCompile Include="Day9_GradeAtoF_Type1.cpp" />
+    <ClCompile Include="Day9_GradeAtoF_Type2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

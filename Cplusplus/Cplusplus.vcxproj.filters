@@ -39,5 +39,11 @@
     <ClCompile Include="Day8_EvenOrOdd_Type2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day9_GradeAtoF_Type2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day9_GradeAtoF_Type1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -137,6 +137,7 @@
     <ClCompile Include="Day8_EvenOrOdd_Type2.cpp" />
     <ClCompile Include="Day9_GradeAtoF_Type1.cpp" />
     <ClCompile Include="Day9_GradeAtoF_Type2.cpp" />
+    <ClCompile Include="Day9_TheSmallestNumber.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

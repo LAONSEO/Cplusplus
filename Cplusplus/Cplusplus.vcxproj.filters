@@ -48,5 +48,8 @@
     <ClCompile Include="Day9_TheSmallestNumber.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day10_PrintArrayUsing2IntNumber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

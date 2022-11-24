@@ -57,5 +57,11 @@
     <ClCompile Include="Day011_PrintAllDivisor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day011_WhileAndFor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day011_DivisorNumber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

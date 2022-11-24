@@ -141,6 +141,8 @@
     <ClCompile Include="Day009_GradeAtoF_Type2.cpp" />
     <ClCompile Include="Day009_TheSmallestNumber.cpp" />
     <ClCompile Include="Day011_PrintAllDivisor.cpp" />
+    <ClCompile Include="Day011_WhileAndFor.cpp" />
+    <ClCompile Include="Day011_DivisorNumber.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

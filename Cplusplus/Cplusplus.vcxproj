@@ -127,18 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Day10_PrintArrayUsing2IntNumber.cpp" />
-    <ClCompile Include="Day3_BasicCalculation_.cpp" />
-    <ClCompile Include="Day4_Float.cpp" />
-    <ClCompile Include="Day5_Divisor.cpp" />
-    <ClCompile Include="Day6_OperatorCalculation.cpp" />
-    <ClCompile Include="Day7_2_OverwatchTier.cpp" />
-    <ClCompile Include="Day7_1_DungeonEntryCount.cpp" />
-    <ClCompile Include="Day8_EvenOrOdd_Type1.cpp" />
-    <ClCompile Include="Day8_EvenOrOdd_Type2.cpp" />
-    <ClCompile Include="Day9_GradeAtoF_Type1.cpp" />
-    <ClCompile Include="Day9_GradeAtoF_Type2.cpp" />
-    <ClCompile Include="Day9_TheSmallestNumber.cpp" />
+    <ClCompile Include="Day011_NumberSUM_Type1.cpp" />
+    <ClCompile Include="Day010_PrintArrayUsing2IntNumber.cpp" />
+    <ClCompile Include="Day003_BasicCalculation_.cpp" />
+    <ClCompile Include="Day004_Float.cpp" />
+    <ClCompile Include="Day005_Divisor.cpp" />
+    <ClCompile Include="Day006_OperatorCalculation.cpp" />
+    <ClCompile Include="Day007_2_OverwatchTier.cpp" />
+    <ClCompile Include="Day007_1_DungeonEntryCount.cpp" />
+    <ClCompile Include="Day008_EvenOrOdd_Type1.cpp" />
+    <ClCompile Include="Day008_EvenOrOdd_Type2.cpp" />
+    <ClCompile Include="Day009_GradeAtoF_Type1.cpp" />
+    <ClCompile Include="Day009_GradeAtoF_Type2.cpp" />
+    <ClCompile Include="Day009_TheSmallestNumber.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

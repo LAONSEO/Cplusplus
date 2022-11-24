@@ -54,5 +54,8 @@
     <ClCompile Include="Day011_NumberSUM_Type1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day011_PrintAllDivisor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

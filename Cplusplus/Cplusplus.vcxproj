@@ -143,6 +143,9 @@
     <ClCompile Include="Day011_PrintAllDivisor.cpp" />
     <ClCompile Include="Day011_WhileAndFor.cpp" />
     <ClCompile Include="Day011_DivisorNumber.cpp" />
+    <ClCompile Include="Day012_DecimalPlaces_Type1.cpp" />
+    <ClCompile Include="Day012_DecimalPlaeces_Type2.cpp" />
+    <ClCompile Include="Day012_FibonacciNumbers.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

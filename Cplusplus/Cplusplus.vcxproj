@@ -147,6 +147,7 @@
     <ClCompile Include="Day012_DecimalPlaeces_Type2.cpp" />
     <ClCompile Include="Day012_FibonacciNumbers.cpp" />
     <ClCompile Include="Day015_StarPrint_SentenceFor_Type3.cpp" />
+    <ClCompile Include="Day015_StarPrint_SentenceFor_Type4.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

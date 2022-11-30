@@ -72,8 +72,5 @@
     <ClCompile Include="Day012_DecimalPlaeces_Type2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="StarPrint_SentenceFor_Type2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

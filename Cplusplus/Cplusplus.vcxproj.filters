@@ -84,5 +84,11 @@
     <ClCompile Include="Day017_PracticeArray_Type1_2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day017_PracticeArray_Type2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day017_PracticArray_ChooseMinNumber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

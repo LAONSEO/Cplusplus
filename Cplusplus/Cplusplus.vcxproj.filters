@@ -78,7 +78,7 @@
     <ClCompile Include="Day015_StarPrint_SentenceFor_Type4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day016_PracticeArray_Type_1.cpp">
+    <ClCompile Include="Day016_PracticeArray_Type1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Day017_PracticeArray_Type1_2.cpp">
@@ -87,7 +87,7 @@
     <ClCompile Include="Day017_PracticeArray_Type2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day017_PracticArray_ChooseMinNumber.cpp">
+    <ClCompile Include="Day017_PracticArray_Type3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

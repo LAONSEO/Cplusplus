@@ -87,7 +87,7 @@
     <ClCompile Include="Day017_PracticeArray_Type2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day017_PracticArray_Type3.cpp">
+    <ClCompile Include="Day017_PracticeArray_Type3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

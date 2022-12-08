@@ -99,5 +99,8 @@
     <ClCompile Include="Day019_PracticeArray_EvenSum_OddAverage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day020_racticeArray_Print2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

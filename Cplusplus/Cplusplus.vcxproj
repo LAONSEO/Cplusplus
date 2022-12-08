@@ -155,6 +155,7 @@
     <ClCompile Include="Day019_PracticeArray_3Drainage.cpp" />
     <ClCompile Include="Day019_PracticeArray_Fibonacci.cpp" />
     <ClCompile Include="Day019_PracticeArray_EvenSum_OddAverage.cpp" />
+    <ClCompile Include="Day020_racticeArray_Print2D.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

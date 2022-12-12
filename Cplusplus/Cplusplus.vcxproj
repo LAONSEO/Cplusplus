@@ -157,7 +157,8 @@
     <ClCompile Include="Day019_PracticeArray_EvenSum_OddAverage.cpp" />
     <ClCompile Include="Day020_PracticeArray_Print2D.cpp" />
     <ClCompile Include="Day021_PracticeArray_MagicSquare_5by5.cpp" />
-    <ClCompile Include="Day022_PracticeArray_NumberSnake.cpp" />
+    <ClCompile Include="Day022_PracticeArray_NumberSnake1.cpp" />
+    <ClCompile Include="Day022_PracticeArray_NumberSnake2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

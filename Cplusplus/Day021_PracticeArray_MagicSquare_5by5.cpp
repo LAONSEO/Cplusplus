@@ -2,7 +2,7 @@
 
 int main()
 {
-	int arData[9][9]{};
+	int arData[5][5]{};
 	int nIndex1{};
 	int nIndex2{};
 	int nData{};

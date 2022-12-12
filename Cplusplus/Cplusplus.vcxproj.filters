@@ -105,5 +105,8 @@
     <ClCompile Include="Day021_PracticeArray_MagicSquare_5by5.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day022_PracticeArray_NumberSnake.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

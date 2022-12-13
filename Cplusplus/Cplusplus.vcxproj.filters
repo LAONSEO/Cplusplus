@@ -111,5 +111,8 @@
     <ClCompile Include="Day022_PracticeArray_NumberSnake2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day023_PracticeArray_NumberSnake3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

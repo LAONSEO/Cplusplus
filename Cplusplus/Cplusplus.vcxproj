@@ -159,6 +159,7 @@
     <ClCompile Include="Day021_PracticeArray_MagicSquare_5by5.cpp" />
     <ClCompile Include="Day022_PracticeArray_NumberSnake1.cpp" />
     <ClCompile Include="Day022_PracticeArray_NumberSnake2.cpp" />
+    <ClCompile Include="Day023_PracticeArray_NumberSnake3.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -114,5 +114,14 @@
     <ClCompile Include="Day023_PracticeArray_NumberSnake3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day024_PracticePointer_Start1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day025_PracticePointer_Start2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day025_PracticePointer_Start3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

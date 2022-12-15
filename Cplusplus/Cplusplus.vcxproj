@@ -160,6 +160,9 @@
     <ClCompile Include="Day022_PracticeArray_NumberSnake1.cpp" />
     <ClCompile Include="Day022_PracticeArray_NumberSnake2.cpp" />
     <ClCompile Include="Day023_PracticeArray_NumberSnake3.cpp" />
+    <ClCompile Include="Day024_PracticePointer_Start1.cpp" />
+    <ClCompile Include="Day025_PracticePointer_Start2.cpp" />
+    <ClCompile Include="Day025_PracticePointer_Start3.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -123,10 +123,13 @@
     <ClCompile Include="Day025_PracticePointer_Start3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day026_PracticePoiniter_Start5.cpp">
+    <ClCompile Include="Day026_PracticePointer_Start5.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Day026_PracticePoiniter_Start4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day027_PracticePointer_Start1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

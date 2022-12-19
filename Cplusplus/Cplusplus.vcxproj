@@ -164,7 +164,8 @@
     <ClCompile Include="Day025_PracticePointer_Start2.cpp" />
     <ClCompile Include="Day025_PracticePointer_Start3.cpp" />
     <ClCompile Include="Day026_PracticePoiniter_Start4.cpp" />
-    <ClCompile Include="Day026_PracticePoiniter_Start5.cpp" />
+    <ClCompile Include="Day026_PracticePointer_Start5.cpp" />
+    <ClCompile Include="Day027_PracticePointer_Start1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

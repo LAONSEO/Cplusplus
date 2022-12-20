@@ -132,5 +132,8 @@
     <ClCompile Include="Day027_PracticePointer_Start1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day028_PracticePointer_Start2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

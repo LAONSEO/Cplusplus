@@ -129,10 +129,10 @@
     <ClCompile Include="Day026_PracticePoiniter_Start4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day027_PracticePointer_Start1.cpp">
+    <ClCompile Include="Day027_PracticeFunction_Start.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day028_PracticePointer_Start2.cpp">
+    <ClCompile Include="Day028_PracticeFunction_Start2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Day028_PracticeFunction_Start2_ex1.cpp">

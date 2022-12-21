@@ -1,52 +1,71 @@
-// PracticeFunction_Start2_ex1.cpp : 두 수를 입력받아 작은 수를 출력하고 그 작은 수가 짝수인지 홀수인지 출력하시오.
-// 단, 작은 수 출력과 홀짝 구분은 각각 함수기능으로 구현할 것.
+// PracticeFunction_start2_ex1.cpp : 두 수를 입력받아 작은 수를 출력하고 그 작은 수가 짝수인지 홀수인지 출력하시오.
 
 #include <iostream>
 
-void printNumMin(int nData1, int nData2, int* pFunctionNumMin);
-void printEvenOdd(int nData3);
+void printNumMin(int nNum1, int nNum2);
+void chooseNumMin(int nNum1, int nNum2, int* nMin);
+void calcRemainder(int nInputNum, int* nRemainder);
+void printEvenOdd(int nInputNum);
 
 int main()
 {
-    int nNumberScan1{};
-    int nNumberScan2{};
-    int nNumberMinimum{};
-    int* pNumberMinimum{};
+	int nNumberScan1{};
+	int nNumberScan2{};
+	int nNumberMin{};
+	int nRemainder{};
 
-    printf("1번째 숫자를 입력하세요.\n");
-    scanf_s("%d", &nNumberScan1);
-    printf("2번째 숫자를 입력하세요.\n");
-    scanf_s("%d", &nNumberScan2);
+	printf("1번째 숫자를 입력하세요.\n");
+	scanf_s("%d", &nNumberScan1);
+	printf("2번째 숫자를 입력하세요.\n");
+	scanf_s("%d", &nNumberScan2);
 
-    pNumberMinimum = &nNumberMinimum;
+	printNumMin(nNumberScan1, nNumberScan2);
 
-    printNumMin(nNumberScan1, nNumberScan2, &nNumberMinimum);
-    printEvenOdd(*pNumberMinimum);
+	chooseNumMin(nNumberScan1, nNumberScan2, &nNumberMin);
+
+	calcRemainder(nNumberMin, &nRemainder);
+
+	printEvenOdd(nRemainder);
+
 }
 
-void printNumMin(int nData1, int nData2, int* pFunctionNumMin)
+void printNumMin(int nNum1, int nNum2)
 {
-    *pFunctionNumMin = nData1;
-    if (nData2 < nData1)
-    {
-        *pFunctionNumMin = nData2;
-    }
-
-    printf("\n작은 수는 %d 입니다.\n", *pFunctionNumMin);
+	if (nNum1 < nNum2)
+	{
+		printf("\n작은 수는 %d 입니다.\n", nNum1);
+	}
+	if (nNum2 < nNum1)
+	{
+		printf("\n작은 수는 %d 입니다.\n", nNum2);
+	}
 }
 
-void printEvenOdd(int nData3)
+void chooseNumMin(int nNum1, int nNum2, int* nMin)
 {
-    int nRemainderEven{};
+	if (nNum1 < nNum2)
+	{
+		*nMin = nNum1;
+	}
+	if (nNum2 < nNum1)
+	{
+		*nMin = nNum2;
+	}
+}
 
-    nRemainderEven = nData3 % 2;
+void calcRemainder(int nInputNum, int* nRemainder)
+{
+	*nRemainder = nInputNum % 2;
+}
 
-    if (nRemainderEven == 0)
-    {
-        printf("\n작은 수는 Even.\n");
-    }
-    else if (nRemainderEven != 0)
-    {
-        printf("\n작은 수는 Odd.\n");
-    }
+void printEvenOdd(int nInputNum)
+{
+	if (nInputNum == 0)
+	{
+		printf("\nEven.\n");
+	}
+	else if (nInputNum == 1)
+	{
+		printf("\nOdd.\n");
+	}
 }

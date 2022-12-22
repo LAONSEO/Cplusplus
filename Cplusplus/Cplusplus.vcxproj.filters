@@ -144,5 +144,8 @@
     <ClCompile Include="Day029_PracticeFunction_Start4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day030_PracticeFunction_Start5_arrary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -150,5 +150,8 @@
     <ClCompile Include="Day031_PracticeFunction_ex1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day031_PracticeFunction_ex3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

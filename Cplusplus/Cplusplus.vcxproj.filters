@@ -153,5 +153,14 @@
     <ClCompile Include="Day031_PracticeFunction_ex3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day032_PracticeFunction_Start6_return1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day032_PracticeFunction_Start6_return2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day032_PracticeFunction_Start6_return3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -173,6 +173,9 @@
     <ClCompile Include="Day030_PracticeFunction_Start5_arrary.cpp" />
     <ClCompile Include="Day031_PracticeFunction_ex1.cpp" />
     <ClCompile Include="Day031_PracticeFunction_ex3.cpp" />
+    <ClCompile Include="Day032_PracticeFunction_Start6_return1.cpp" />
+    <ClCompile Include="Day032_PracticeFunction_Start6_return2.cpp" />
+    <ClCompile Include="Day032_PracticeFunction_Start6_return3.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -177,6 +177,7 @@
     <ClCompile Include="Day032_PracticeFunction_Start6_return2.cpp" />
     <ClCompile Include="Day032_PracticeFunction_Start6_return3.cpp" />
     <ClCompile Include="Day031_PracticeFunction_ex2.cpp" />
+    <ClCompile Include="Day033_PracticeFunction_Start7_overloading.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -168,5 +168,11 @@
     <ClCompile Include="Day033_PracticeFunction_Start7_overloading.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day034_PracticeFunction_Start8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day034_PracticeFunction_Start9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

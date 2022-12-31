@@ -174,5 +174,14 @@
     <ClCompile Include="Day034_PracticeFunction_Start9.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day035_PracticeFuction_String1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day035_PracticeFuction_String2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day035_PracticeFuction_String3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

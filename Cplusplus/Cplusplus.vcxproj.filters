@@ -198,5 +198,8 @@
     <ClCompile Include="Day037_PracticeFuction_String5_ex2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day037_PracticeFuction_String5_ex3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

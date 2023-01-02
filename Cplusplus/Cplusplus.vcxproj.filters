@@ -174,13 +174,25 @@
     <ClCompile Include="Day034_PracticeFunction_Start9.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day035_PracticeFuction_String1.cpp">
+    <ClCompile Include="Day036_PracticeFuction_String1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day035_PracticeFuction_String2.cpp">
+    <ClCompile Include="Day036_PracticeFuction_String2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day035_PracticeFuction_String3.cpp">
+    <ClCompile Include="Day036_PracticeFuction_String3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day036_PracticeFuction_String4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day037_PracticeFuction_String5_ex1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day035_PracticeFunction_ex4_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day035_PracticeFunction_ex4_2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

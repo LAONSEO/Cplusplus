@@ -180,9 +180,13 @@
     <ClCompile Include="Day033_PracticeFunction_Start7_overloading.cpp" />
     <ClCompile Include="Day034_PracticeFunction_Start8.cpp" />
     <ClCompile Include="Day034_PracticeFunction_Start9.cpp" />
-    <ClCompile Include="Day035_PracticeFuction_String1.cpp" />
-    <ClCompile Include="Day035_PracticeFuction_String2.cpp" />
-    <ClCompile Include="Day035_PracticeFuction_String3.cpp" />
+    <ClCompile Include="Day036_PracticeFuction_String1.cpp" />
+    <ClCompile Include="Day036_PracticeFuction_String2.cpp" />
+    <ClCompile Include="Day036_PracticeFuction_String3.cpp" />
+    <ClCompile Include="Day036_PracticeFuction_String4.cpp" />
+    <ClCompile Include="Day037_PracticeFuction_String5_ex1.cpp" />
+    <ClCompile Include="Day035_PracticeFunction_ex4_1.cpp" />
+    <ClCompile Include="Day035_PracticeFunction_ex4_2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

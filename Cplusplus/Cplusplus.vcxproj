@@ -189,6 +189,8 @@
     <ClCompile Include="Day035_PracticeFunction_ex4_2.cpp" />
     <ClCompile Include="Day037_PracticeFuction_String5_ex2.cpp" />
     <ClCompile Include="Day037_PracticeFuction_String5_ex3.cpp" />
+    <ClCompile Include="Day039_PracticeStruct_1.cpp" />
+    <ClCompile Include="Day039_PracticeStruct_2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

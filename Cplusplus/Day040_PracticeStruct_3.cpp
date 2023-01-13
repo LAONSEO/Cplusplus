@@ -17,6 +17,5 @@ int main()
 
     (*(*p).pTest).nData;
     p->pTest->nData;
-
     *p->pTest->pData;
 }

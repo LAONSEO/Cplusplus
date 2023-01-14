@@ -210,5 +210,11 @@
     <ClCompile Include="Day040_PracticeStruct_3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day040_PracticeStruct_ex1_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day040_PracticeStruct_ex1_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

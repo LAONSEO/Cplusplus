@@ -228,5 +228,8 @@
     <ClCompile Include="Day040_PracticeStruct_ex2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day041_PracticeNamespace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,6 +1,6 @@
 #pragma once
 
-class Day043_PracticeClass_2
+class PracticeClass_2
 {
 private:
 	int m_nData{};

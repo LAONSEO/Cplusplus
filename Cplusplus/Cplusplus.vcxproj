@@ -201,14 +201,20 @@
     <ClCompile Include="Day041_PracticeNamespace.cpp" />
     <ClCompile Include="Day042_PracticeClass_1.cpp" />
     <ClCompile Include="Day043_PracticeClass_2.cpp" />
+    <ClCompile Include="Day046_PracticeClass_5.cpp" />
     <ClCompile Include="PracticeClass_2.cpp" />
     <ClCompile Include="Day044_PracticeClass_3.cpp" />
     <ClCompile Include="PracticeClass_3.cpp" />
     <ClCompile Include="Day045_PracticeClass_4.cpp" />
+    <ClCompile Include="Day046_PracticeClass_6.cpp" />
+    <ClCompile Include="PracticeClass_5_1.cpp" />
+    <ClCompile Include="PracticeClass_5_2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_2.h" />
     <ClInclude Include="PracticeClass_3.h" />
+    <ClInclude Include="PracticeClass_5_1.h" />
+    <ClInclude Include="PracticeClass_5_2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

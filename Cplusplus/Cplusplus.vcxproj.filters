@@ -249,12 +249,30 @@
     <ClCompile Include="Day045_PracticeClass_4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day046_PracticeClass_5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day046_PracticeClass_6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PracticeClass_5_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PracticeClass_5_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="PracticeClass_3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticeClass_5_1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticeClass_5_2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

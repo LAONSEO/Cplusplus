@@ -202,6 +202,7 @@
     <ClCompile Include="Day042_PracticeClass_1.cpp" />
     <ClCompile Include="Day043_PracticeClass_2.cpp" />
     <ClCompile Include="Day046_PracticeClass_5.cpp" />
+    <ClCompile Include="PracticeClass_15.cpp" />
     <ClCompile Include="PracticeClass_2.cpp" />
     <ClCompile Include="Day044_PracticeClass_3.cpp" />
     <ClCompile Include="PracticeClass_3.cpp" />
@@ -217,8 +218,11 @@
     <ClCompile Include="Day048_PracticeClass_12.cpp" />
     <ClCompile Include="Day049_PracticeClass_13.cpp" />
     <ClCompile Include="Day049_PracticeClass_14.cpp" />
+    <ClCompile Include="Day050_PracticeClass_15.cpp" />
+    <ClCompile Include="Day050_PracticeClass_16.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="PracticeClass_15.h" />
     <ClInclude Include="PracticeClass_2.h" />
     <ClInclude Include="PracticeClass_3.h" />
     <ClInclude Include="PracticeClass_5_1.h" />

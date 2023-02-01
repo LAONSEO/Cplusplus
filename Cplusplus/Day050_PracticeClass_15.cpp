@@ -3,7 +3,7 @@
 
 int main()
 {
-	C_DATA c;
+	PracticeClass_15 c;
 
 	c.setData(10);
 

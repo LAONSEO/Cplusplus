@@ -1,13 +1,13 @@
 #pragma once
 
-class C_DATA
+class PracticeClass_15
 {
 private:
 	int* m_pData;
 
 public:
-	C_DATA();
-	~C_DATA();
+	PracticeClass_15();
+	~PracticeClass_15();
 
 	void setData(int nData);
 	int getData();

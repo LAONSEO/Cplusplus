@@ -203,6 +203,7 @@
     <ClCompile Include="Day043_PracticeClass_2.cpp" />
     <ClCompile Include="Day046_PracticeClass_5.cpp" />
     <ClCompile Include="PracticeClass_15.cpp" />
+    <ClCompile Include="PracticeClass_17.cpp" />
     <ClCompile Include="PracticeClass_2.cpp" />
     <ClCompile Include="Day044_PracticeClass_3.cpp" />
     <ClCompile Include="PracticeClass_3.cpp" />
@@ -220,6 +221,7 @@
     <ClCompile Include="Day049_PracticeClass_14.cpp" />
     <ClCompile Include="Day050_PracticeClass_15.cpp" />
     <ClCompile Include="Day050_PracticeClass_16.cpp" />
+    <ClCompile Include="Day050_PracticeClass_17.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_15.h" />
@@ -227,6 +229,7 @@
     <ClInclude Include="PracticeClass_3.h" />
     <ClInclude Include="PracticeClass_5_1.h" />
     <ClInclude Include="PracticeClass_5_2.h" />
+    <ClInclude Include="PracticeClass_17.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -294,6 +294,12 @@
     <ClCompile Include="Day050_PracticeClass_16.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day050_PracticeClass_17.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PracticeClass_17.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_2.h">
@@ -309,6 +315,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="PracticeClass_15.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticeClass_17.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

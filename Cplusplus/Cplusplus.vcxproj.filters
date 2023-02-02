@@ -294,10 +294,19 @@
     <ClCompile Include="Day050_PracticeClass_16.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day050_PracticeClass_17.cpp">
+    <ClCompile Include="Day051_PracticeClass_17.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="PracticeClass_17.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day052_PracticeClass_19.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day051_PracticeClass_18.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day052_PracticeClass_20.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -309,6 +309,9 @@
     <ClCompile Include="Day052_PracticeClass_20.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day053_PracticeClass_21.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_2.h">

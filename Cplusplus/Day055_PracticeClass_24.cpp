@@ -1,25 +1,32 @@
 
 #include <iostream>
 
-class C_PARENT
+class A
 {
 public:
-	C_PARENT() { printf("부모생성자\n"); };
-	~C_PARENT() { printf("부모소멸자\n"); };
+	A() { printf("A생성자\n"); };
+	virtual ~A() { printf("A소멸자\n"); };
 };
 
-class C_CHILD : public C_PARENT
+class B : public A
 {
 public:
-	C_CHILD() { printf("자식생성자\n"); };
-	~C_CHILD() { printf("자식소멸자\n"); };
+	B() { printf("B생성자\n"); };
+	~B() { printf("B소멸자\n"); };
+};
+
+class C : public B
+{
+public:
+	C() { printf("C생성자\n"); };
+	~C() { printf("C소멸자\n"); };
 };
 
 int main()
 {
-	C_PARENT* p{};
+	A* a{};
 
-	p = new C_CHILD{};
+	a = new C{};
 
-	delete p;
+	delete a;
 }

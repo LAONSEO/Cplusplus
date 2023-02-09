@@ -207,6 +207,8 @@
     <ClCompile Include="PracticeClass_17.cpp" />
     <ClCompile Include="PracticeClass_2.cpp" />
     <ClCompile Include="Day044_PracticeClass_3.cpp" />
+    <ClCompile Include="PracticeClass_26_cat.cpp" />
+    <ClCompile Include="PracticeClass_26_duck.cpp" />
     <ClCompile Include="PracticeClass_3.cpp" />
     <ClCompile Include="Day045_PracticeClass_4.cpp" />
     <ClCompile Include="Day046_PracticeClass_6.cpp" />
@@ -230,14 +232,18 @@
     <ClCompile Include="Day055_PracticeClass_23.cpp" />
     <ClCompile Include="Day055_PracticeClass_24.cpp" />
     <ClCompile Include="Day056_PracticeClass_25.cpp" />
+    <ClCompile Include="Day057_PracticeClass_26.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_15.h" />
     <ClInclude Include="PracticeClass_2.h" />
+    <ClInclude Include="PracticeClass_26_animal.h" />
     <ClInclude Include="PracticeClass_3.h" />
     <ClInclude Include="PracticeClass_5_1.h" />
     <ClInclude Include="PracticeClass_5_2.h" />
     <ClInclude Include="PracticeClass_17.h" />
+    <ClInclude Include="PracticeClass_26_duck.h" />
+    <ClInclude Include="PracticeClass_26_cat.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

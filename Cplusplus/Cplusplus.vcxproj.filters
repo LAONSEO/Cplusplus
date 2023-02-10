@@ -336,6 +336,18 @@
     <ClCompile Include="Day057_PracticeClass_27.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day058_PracticeClass_29.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PracticeClass_29_duck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PracticeClass_29_walk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PracticeClass_29_fly.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_2.h">
@@ -363,6 +375,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="PracticeClass_26_cat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticeClass_29_duck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticeClass_29_move.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticeClass_29_walk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticeClass_29_fly.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

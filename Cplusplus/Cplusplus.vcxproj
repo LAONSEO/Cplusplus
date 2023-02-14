@@ -215,6 +215,12 @@
     <ClCompile Include="PracticeClass_3.cpp" />
     <ClCompile Include="Day045_PracticeClass_4.cpp" />
     <ClCompile Include="Day046_PracticeClass_6.cpp" />
+    <ClCompile Include="PracticeClass_30_duck.cpp" />
+    <ClCompile Include="PracticeClass_30_fly.cpp" />
+    <ClCompile Include="PracticeClass_30_move.cpp" />
+    <ClCompile Include="PracticeClass_30_moveMgr.cpp" />
+    <ClCompile Include="PracticeClass_30_swim.cpp" />
+    <ClCompile Include="PracticeClass_30_walk.cpp" />
     <ClCompile Include="PracticeClass_5_1.cpp" />
     <ClCompile Include="PracticeClass_5_2.cpp" />
     <ClCompile Include="Day047_PracticeClass_7.cpp" />
@@ -238,6 +244,7 @@
     <ClCompile Include="Day057_PracticeClass_26.cpp" />
     <ClCompile Include="Day057_PracticeClass_27.cpp" />
     <ClCompile Include="Day058_PracticeClass_29.cpp" />
+    <ClCompile Include="Day059_PracticeClass_30.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_15.h" />
@@ -245,6 +252,12 @@
     <ClInclude Include="PracticeClass_26_animal.h" />
     <ClInclude Include="PracticeClass_29_duck.h" />
     <ClInclude Include="PracticeClass_3.h" />
+    <ClInclude Include="PracticeClass_30_duck.h" />
+    <ClInclude Include="PracticeClass_30_fly.h" />
+    <ClInclude Include="PracticeClass_30_move.h" />
+    <ClInclude Include="PracticeClass_30_moveMgr.h" />
+    <ClInclude Include="PracticeClass_30_swim.h" />
+    <ClInclude Include="PracticeClass_30_walk.h" />
     <ClInclude Include="PracticeClass_5_1.h" />
     <ClInclude Include="PracticeClass_5_2.h" />
     <ClInclude Include="PracticeClass_17.h" />

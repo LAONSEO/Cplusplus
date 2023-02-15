@@ -1,9 +1,9 @@
 #include <iostream>
 
-class C_TEST
+class PracticeClass_1_C_TEST
 {
 private:
-    int nData;
+    int m_nData;
 
 public:
     void setData(int nData);
@@ -12,8 +12,8 @@ public:
 
 int main()
 {
-    C_TEST cTest1{};
-    C_TEST cTest2{};
+    PracticeClass_1_C_TEST cTest1{};
+    PracticeClass_1_C_TEST cTest2{};
 
     cTest1.setData(100);
     cTest2.setData(50);
@@ -21,12 +21,12 @@ int main()
     printf("%d, %d\n", cTest1.getData(), cTest2.getData());
 }
 
-void C_TEST::setData(int nData)
+void PracticeClass_1_C_TEST::setData(int nData)
 {
-    C_TEST::nData = nData;
+    PracticeClass_1_C_TEST::m_nData = nData;
 }
 
-int C_TEST::getData()
+int PracticeClass_1_C_TEST::getData()
 {
-    return nData;
+    return m_nData;
 }

@@ -1,4 +1,4 @@
-// Day061_PracticeDS_1.cpp
+// PracticeDS_1.cpp : selection sort.
 
 #include <iostream>
 

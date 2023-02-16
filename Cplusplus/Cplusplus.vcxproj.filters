@@ -372,7 +372,7 @@
     <ClCompile Include="Day057_PracticeClass_28.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day061_PracticeClass_32.cpp">
+    <ClCompile Include="Day061_PracticeDS_1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

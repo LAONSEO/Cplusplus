@@ -221,6 +221,10 @@
     <ClCompile Include="PracticeClass_30_moveMgr.cpp" />
     <ClCompile Include="PracticeClass_30_swim.cpp" />
     <ClCompile Include="PracticeClass_30_walk.cpp" />
+    <ClCompile Include="PracticeClass_31_fly.cpp" />
+    <ClCompile Include="PracticeClass_31_moveMgr.cpp" />
+    <ClCompile Include="PracticeClass_31_swim.cpp" />
+    <ClCompile Include="PracticeClass_31_walk.cpp" />
     <ClCompile Include="PracticeClass_5_1.cpp" />
     <ClCompile Include="PracticeClass_5_2.cpp" />
     <ClCompile Include="Day047_PracticeClass_7.cpp" />
@@ -250,6 +254,7 @@
     <ClCompile Include="Day062_PracticeDS_3.cpp" />
     <ClCompile Include="Day062_PracticeDS_2.cpp" />
     <ClCompile Include="Day063_PracticeDS_4.cpp" />
+    <ClCompile Include="Day060_PracticeClass_31.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_15.h" />
@@ -271,6 +276,11 @@
     <ClInclude Include="PracticeClass_29_move.h" />
     <ClInclude Include="PracticeClass_29_walk.h" />
     <ClInclude Include="PracticeClass_29_fly.h" />
+    <ClInclude Include="PracticeClass_31_walk.h" />
+    <ClInclude Include="PracticeClass_31_move.h" />
+    <ClInclude Include="PracticeClass_31_fly.h" />
+    <ClInclude Include="PracticeClass_31_swim.h" />
+    <ClInclude Include="PracticeClass_31_moveMgr.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

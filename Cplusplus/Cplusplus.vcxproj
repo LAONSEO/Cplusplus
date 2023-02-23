@@ -262,6 +262,8 @@
     <ClCompile Include="Day060_PracticeClass_31.cpp" />
     <ClCompile Include="Day060_PracticeClass_31_Factory.cpp" />
     <ClCompile Include="Day066_PracticeDS_5.cpp" />
+    <ClCompile Include="Day067_PracticeDS_6.cpp" />
+    <ClCompile Include="Day067_PracticeDS_7.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_15.h" />

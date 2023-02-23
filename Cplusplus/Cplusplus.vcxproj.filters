@@ -420,6 +420,12 @@
     <ClCompile Include="Day066_PracticeDS_5.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day067_PracticeDS_6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day067_PracticeDS_7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_2.h">

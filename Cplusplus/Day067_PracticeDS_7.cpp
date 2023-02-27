@@ -33,4 +33,6 @@ bool getFibonacci(int nIndex, int& nResult)
     getFibonacci(nIndex - 1, nResult1);
 
     nResult = nResult1 + nResult2;
+    
+    return true;
 }

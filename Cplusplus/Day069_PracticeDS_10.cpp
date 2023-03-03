@@ -9,7 +9,7 @@ int main()
 	int arData[7]{ 11,22,33,44,55,66,77 };
 	int nResult{};
 
-	SearchBinary(arData, 7, 47, nResult);
+	SearchBinary(arData, 7, 100, nResult);
 	printf("%d 번지에 있음. \n", nResult);
 }
 
@@ -37,7 +37,7 @@ bool SearchBinary(const int* pData, int nLength, int value, int& nResult)
 		if (value < pData[nIndexMid])
 		{
 			nIndexEnd = nIndexMid - 1;
-			if (value > pData[nIndexMid - 1])
+			if (value > pData[nIndexMid - 1] || nIndexEnd < 0)
 			{
 				nResult = -1;
 				return false;
@@ -49,7 +49,7 @@ bool SearchBinary(const int* pData, int nLength, int value, int& nResult)
 		if (value > pData[nIndexMid])
 		{
 			nIndexStart = nIndexMid + 1;
-			if (value < pData[nIndexMid + 1])
+			if (value < pData[nIndexMid + 1] || nIndexStart >= nLength)
 			{
 				nResult = -1;
 				return false;

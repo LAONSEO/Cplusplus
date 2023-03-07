@@ -51,7 +51,7 @@ void quickSort(int* pData, int nLength)
 
 	while (nLow <= nHigh)
 	{
-		while (pData[nLow] < pData[nPivot] && nLow < nLength)
+		while (nLow < nLength && pData[nLow] < pData[nPivot])
 		{
 			nLow++;
 		}

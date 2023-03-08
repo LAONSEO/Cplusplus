@@ -1,4 +1,4 @@
-// PracticeDS_13.cpp : mergeSort
+// PracticeDS_13.cpp : Merge Sort.
 
 #include <iostream>
 
@@ -10,9 +10,15 @@ int main()
 	int arData[9]{ 2,5,7,8,1,3,4,6,9 };
 	int arTmp[9]{};
 
-	int nLength = 9;
-	int* pData = arData;
-	int* pTmp = arTmp;
+	mergeSort(arData, 9, arTmp);
+	printData(arData, 9);
+}
+
+// must tmpLength >= nLength
+void mergeSort(int* pData, int nLength, int* pTmp)
+{
+	if (nLength <= 1)
+		return;
 
 	int* pLeft = pData;
 	int nLeftLength = nLength / 2;
@@ -23,8 +29,8 @@ int main()
 	int nRightIndex{};
 	int nTmpIndex{};
 
-
-	// 정렬된 배열 두 개를 한 개로 합치는 내용
+	mergeSort(pLeft, nLeftLength, pTmp);
+	mergeSort(pRight, nRightLength, pTmp);
 
 	while (nLeftIndex < nLeftLength && nRightIndex < nRightLength)
 	{
@@ -71,17 +77,28 @@ int main()
 	//	(*pMinIndex)++;
 	//}
 
+	//Type. 3
+	//int* pLeft = pData;
+	//int* pLeftOverFlow = pData + (nLength / 2);
+	//int* pRight = pLeftOverFlow;
+	//int* pRightOverFlow = pData + nLength;
+
+	//mergeSort(pLeft, (int)(pLeftOverFlow - pLeft), pTmp);
+	//mergeSort(pRight, (int)(pRightOverFlow - pRight), pTmp);
+
+	//for (int i = 0; i < nLength; i++)
+	//{
+	//	int** ppMin = &pLeft;
+	//	if (pLeft >= pLeftOverFlow || (pRight < pRightOverFlow && *pLeft > *pRight))
+	//		ppMin = &pRight;
+	//	pTmp[i] = **ppMin;
+	//	(*ppMin)++;
+	//}
+
 	for (int i = 0; i < nLength; i++)
 	{
 		pData[i] = pTmp[i];
 	}
-
-	printData(arData, 9);
-}
-
-// must tmpLength >= nLength
-void mergeSort(int* pData, int nLength, int* pTmp)
-{
 }
 
 void printData(int* pData, int nLength)

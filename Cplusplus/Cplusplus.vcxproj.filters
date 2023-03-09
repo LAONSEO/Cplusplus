@@ -444,6 +444,12 @@
     <ClCompile Include="Day072_PracticeDS_13.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day074_PracticeDS_14.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PracticeDS_14.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_2.h">
@@ -534,6 +540,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="PracticeClass_31_F_moveMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticeDS_14.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

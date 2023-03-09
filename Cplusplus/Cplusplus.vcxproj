@@ -270,6 +270,8 @@
     <ClCompile Include="Day070_PracticeDS_11.cpp" />
     <ClCompile Include="Day071_PracticeDS_12.cpp" />
     <ClCompile Include="Day072_PracticeDS_13.cpp" />
+    <ClCompile Include="Day074_PracticeDS_14.cpp" />
+    <ClCompile Include="PracticeDS_14.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_15.h" />
@@ -302,6 +304,7 @@
     <ClInclude Include="PracticeClass_31_F_walk.h" />
     <ClInclude Include="PracticeClass_31_F_movefactory.h" />
     <ClInclude Include="PracticeClass_31_F_moveMgr.h" />
+    <ClInclude Include="PracticeDS_14.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

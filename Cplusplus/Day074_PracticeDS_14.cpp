@@ -7,10 +7,10 @@ int main()
 {
 	C_LINKEDLIST cList{};
 
-	cList.pushBack(1);
-	cList.pushBack(2);
-	cList.pushBack(3);
-	cList.pushBack(4);
+	cList.PracticeDS_14_pushBack(1);
+	cList.PracticeDS_14_pushBack(2);
+	cList.PracticeDS_14_pushBack(3);
+	cList.PracticeDS_14_pushBack(4);
 
-	cList.printData();
+	cList.PracticeDS_14_printData();
 }

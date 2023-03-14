@@ -203,7 +203,7 @@
     <ClCompile Include="Day043_PracticeClass_2.cpp" />
     <ClCompile Include="Day046_PracticeClass_5.cpp" />
     <ClCompile Include="Day053_PracticeClass_21.cpp" />
-    <ClCompile Include="Day075_PracticeDS_15.cpp" />
+    <ClCompile Include="Day075-76_PracticeDS_15.cpp" />
     <ClCompile Include="PracticeClass_15.cpp" />
     <ClCompile Include="PracticeClass_17.cpp" />
     <ClCompile Include="PracticeClass_2.cpp" />

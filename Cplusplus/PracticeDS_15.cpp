@@ -27,16 +27,29 @@ void C_LINKEDLIST::PracticeDS_15_pushBack(int nData)
 
 void C_LINKEDLIST::PracticeDS_15_remove(int nData)
 {
-	S_NODE* pFind = m_pBegin;
 	S_NODE* pUp{};
+	S_NODE* pFind = m_pBegin;
 
 	while (pFind)
 	{
 		if (pFind->nData == nData)
 		{
-			pUp->pNext = pFind->pNext;
-			delete pFind;
-			pFind = pUp->pNext;
+			S_NODE* pDel = pFind;
+
+			if (pFind == m_pBegin)
+			{
+				m_pBegin = pFind->pNext;
+			}
+			else
+			{
+				pUp->pNext = pFind->pNext;
+				if (pFind == m_pEnd)
+				{
+					m_pEnd = pUp;
+				}
+			}
+			pFind = pFind->pNext;
+			delete pDel;
 		}
 		else
 		{
@@ -56,3 +69,16 @@ void C_LINKEDLIST::PracticeDS_15_printData()
 	}
 	printf("\n");
 }
+
+//void C_LINKEDLIST::PracticeDS_15_clear()
+//{
+//	S_NODE* pDel{};
+//	while (pDel)
+//	{
+//		S_NODE* pNext = pDel->pNext;
+//		delete pDel;
+//		pDel = pNext;
+//	}
+//	m_pBegin = nullptr;
+//	m_pEnd = nullptr;
+//}

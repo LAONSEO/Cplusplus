@@ -25,4 +25,5 @@ public:
 	void PracticeDS_15_pushBack(int nData);
 	void PracticeDS_15_remove(int nData);
 	void PracticeDS_15_printData();
+	void PracticeDS_15_clear();
 };

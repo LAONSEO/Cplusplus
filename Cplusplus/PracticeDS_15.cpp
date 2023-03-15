@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "PracticeDS_15.h"
 
-C_LINKEDLIST::S_NODE* C_LINKEDLIST::PracticeDS_15_createNode(int nData)
+PracticeDS_15_C_LINKEDLIST::S_NODE* PracticeDS_15_C_LINKEDLIST::PracticeDS_15_createNode(int nData)
 {
 	S_NODE* pNew = new S_NODE{};
 
@@ -11,7 +11,7 @@ C_LINKEDLIST::S_NODE* C_LINKEDLIST::PracticeDS_15_createNode(int nData)
 	return pNew;
 }
 
-void C_LINKEDLIST::PracticeDS_15_pushBack(int nData)
+void PracticeDS_15_C_LINKEDLIST::PracticeDS_15_pushBack(int nData)
 {
 	S_NODE* pNew = PracticeDS_15_createNode(nData);
 
@@ -25,7 +25,7 @@ void C_LINKEDLIST::PracticeDS_15_pushBack(int nData)
 	m_pEnd = pNew; // m_pEnd = m_pEnd->pNext;
 }
 
-void C_LINKEDLIST::PracticeDS_15_remove(int nData)
+void PracticeDS_15_C_LINKEDLIST::PracticeDS_15_remove(int nData)
 {
 	S_NODE* pFind = m_pBegin;
 	S_NODE* pUp{};
@@ -62,7 +62,7 @@ void C_LINKEDLIST::PracticeDS_15_remove(int nData)
 	}
 }
 
-//void C_LINKEDLIST::PracticeDS_15_remove(int nData)
+//void PracticeDS_15_C_LINKEDLIST::PracticeDS_15_remove(int nData)
 //{
 //	S_NODE* pUp{};
 //	S_NODE* pFind = m_pBegin;
@@ -96,7 +96,7 @@ void C_LINKEDLIST::PracticeDS_15_remove(int nData)
 //	}
 //}
 
-void C_LINKEDLIST::PracticeDS_15_printData()
+void PracticeDS_15_C_LINKEDLIST::PracticeDS_15_printData()
 {
 	S_NODE* pPrint = m_pBegin;
 	while (pPrint)
@@ -107,7 +107,7 @@ void C_LINKEDLIST::PracticeDS_15_printData()
 	printf("\n");
 }
 
-//void C_LINKEDLIST::PracticeDS_15_clear()
+//void PracticeDS_15_C_LINKEDLIST::PracticeDS_15_clear()
 //{
 //	S_NODE* pDel{};
 //	while (pDel)

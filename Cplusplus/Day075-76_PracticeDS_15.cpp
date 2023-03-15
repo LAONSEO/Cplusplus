@@ -11,7 +11,7 @@ int main()
 {
 	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 
-	C_LINKEDLIST cList{};
+	PracticeDS_15_C_LINKEDLIST cList{};
 
 	//cList.PracticeDS_15_pushBack(1);
 	//cList.PracticeDS_15_pushBack(2);

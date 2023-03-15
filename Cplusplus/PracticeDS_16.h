@@ -18,8 +18,8 @@ private:
 
 public:
 	PracticeDS_16_C_LINKEDLIST();
-	PracticeDS_16_C_LINKEDLIST(const C_LINKEDLIST&) = delete;
-	PracticeDS_16_C_LINKEDLIST& operator=(const C_LINKEDLIST&) = delete;
+	PracticeDS_16_C_LINKEDLIST(const PracticeDS_16_C_LINKEDLIST&) = delete;
+	PracticeDS_16_C_LINKEDLIST& operator=(const PracticeDS_16_C_LINKEDLIST&) = delete;
 	void PracticeDS_16_pushBack(int nData);
 	void PracticeDS_16_remove(int nData);
 	void PracticeDS_16_printData();

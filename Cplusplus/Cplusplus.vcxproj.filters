@@ -462,6 +462,15 @@
     <ClCompile Include="PracticeDS_16.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="PracticeDS_17_node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PracticeDS_17_linkedlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day078-79_PracticeDS_17.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_2.h">
@@ -561,6 +570,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="PracticeDS_16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticeDS_17_node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticeDS_17_linkedlist.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

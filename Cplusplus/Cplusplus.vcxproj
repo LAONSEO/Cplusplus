@@ -276,6 +276,9 @@
     <ClCompile Include="PracticeDS_15.cpp" />
     <ClCompile Include="Day077_PracticeDS_16.cpp" />
     <ClCompile Include="PracticeDS_16.cpp" />
+    <ClCompile Include="PracticeDS_17_linkedlist.cpp" />
+    <ClCompile Include="PracticeDS_17_node.cpp" />
+    <ClCompile Include="Day078-79_PracticeDS_17.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_15.h" />
@@ -311,6 +314,8 @@
     <ClInclude Include="PracticeDS_14.h" />
     <ClInclude Include="PracticeDS_15.h" />
     <ClInclude Include="PracticeDS_16.h" />
+    <ClInclude Include="PracticeDS_17_node.h" />
+    <ClInclude Include="PracticeDS_17_linkedlist.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

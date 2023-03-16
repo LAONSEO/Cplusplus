@@ -5,7 +5,7 @@
 
 int main()
 {
-	C_LINKEDLIST cList{};
+	PracticeDS_14_C_LINKEDLIST cList{};
 
 	cList.PracticeDS_14_pushBack(1);
 	cList.PracticeDS_14_pushBack(2);

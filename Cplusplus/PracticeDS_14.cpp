@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "PracticeDS_14.h"
 
-C_LINKEDLIST::S_NODE* C_LINKEDLIST::PracticeDS_14_createNode(int nData)
+PracticeDS_14_C_LINKEDLIST::S_NODE* PracticeDS_14_C_LINKEDLIST::PracticeDS_14_createNode(int nData)
 {
     S_NODE* pNew = new S_NODE{};
 
@@ -11,7 +11,7 @@ C_LINKEDLIST::S_NODE* C_LINKEDLIST::PracticeDS_14_createNode(int nData)
     return pNew;
 }
 
-void C_LINKEDLIST::PracticeDS_14_pushBack(int nData)
+void PracticeDS_14_C_LINKEDLIST::PracticeDS_14_pushBack(int nData)
 {
     if (!m_pBegin)
     {
@@ -28,7 +28,7 @@ void C_LINKEDLIST::PracticeDS_14_pushBack(int nData)
     pFind->pNext = PracticeDS_14_createNode(nData);
 }
 
-void C_LINKEDLIST::PracticeDS_14_printData()
+void PracticeDS_14_C_LINKEDLIST::PracticeDS_14_printData()
 {
     S_NODE* pPrint = m_pBegin;
 

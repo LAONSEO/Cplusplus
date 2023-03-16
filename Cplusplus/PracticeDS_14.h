@@ -1,6 +1,6 @@
 #pragma once
 
-class C_LINKEDLIST
+class PracticeDS_14_C_LINKEDLIST
 {
 private:
 	struct S_NODE

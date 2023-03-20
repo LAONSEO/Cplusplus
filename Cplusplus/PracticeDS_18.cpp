@@ -70,6 +70,27 @@ bool PracticeDS_18_C_BST::PracticeDS_18_insert(int nData)
 
 void PracticeDS_18_C_BST::PracticeDS_18_erase(int nData)
 {
+    S_NODE** ppFind = PracticeDS_18_findNode(&m_pRoot, nData);
+    if (!*ppFind)
+        return;
+
+    if (!(*ppFind)->pLeft && !(*ppFind)->pRight)
+    {
+        delete* ppFind;
+        *ppFind = nullptr;
+    }
+    else if ((*ppFind)->pLeft && !(*ppFind)->pRight)
+    {
+        S_NODE* pNext = (*ppFind)->pLeft;
+        delete* ppFind;
+        *ppFind = pNext;
+    }
+    else if (!(*ppFind)->pLeft && (*ppFind)->pRight)
+    {
+        S_NODE* pNext = (*ppFind)->pRight;
+        delete* ppFind;
+        *ppFind = pNext;
+    }
 }
 
 bool PracticeDS_18_C_BST::PracticeDS_18_find(int nData)

@@ -50,6 +50,14 @@ PracticeDS_18_C_BST::S_NODE* PracticeDS_18_C_BST::PracticeDS_18_createNode(int n
     return pNew;
 }
 
+PracticeDS_18_C_BST::S_NODE** PracticeDS_18_C_BST::PracticeDS_18_findReplacedNode(S_NODE** ppNode)
+{
+    if (!(*ppNode)->pRight)
+        return ppNode;
+
+    return PracticeDS_18_findReplacedNode(&(*ppNode)->pRight);
+}
+
 void PracticeDS_18_C_BST::PracticeDS_18_print()
 {
     PracticeDS_18_printNode(m_pRoot);
@@ -74,26 +82,17 @@ void PracticeDS_18_C_BST::PracticeDS_18_erase(int nData)
     if (!*ppFind)
         return;
 
-    if (!(*ppFind)->pLeft && !(*ppFind)->pRight)
+    if ((*ppFind)->pLeft && (*ppFind)->pRight)
     {
-        delete* ppFind;
-        *ppFind = nullptr;
+        S_NODE** ppReplaced = PracticeDS_18_findReplacedNode(&(*ppFind)->pRight);
+        (*ppFind)->nData = (*ppReplaced)->nData;
+        ppFind = ppReplaced;
     }
-    else if ((*ppFind)->pLeft && !(*ppFind)->pRight)
-    {
-        S_NODE* pNext = (*ppFind)->pLeft;
-        delete* ppFind;
-        *ppFind = pNext;
-    }
-    else if (!(*ppFind)->pLeft && (*ppFind)->pRight)
-    {
-        S_NODE* pNext = (*ppFind)->pRight;
-        delete* ppFind;
-        *ppFind = pNext;
-    }
-}
 
-bool PracticeDS_18_C_BST::PracticeDS_18_find(int nData)
-{
-    return false;
+    S_NODE* pNext = (*ppFind)->pLeft;
+    if ((*ppFind)->pRight)
+        pNext = (*ppFind)->pRight;
+
+    delete* ppFind;
+    *ppFind = pNext;
 }

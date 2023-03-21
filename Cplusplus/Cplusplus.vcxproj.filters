@@ -477,6 +477,12 @@
     <ClCompile Include="Day080-82_PracticeDS_18.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="PracticeDS_18_v2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day080-82_PracticeDS_18_v2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_2.h">
@@ -585,6 +591,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="PracticeDS_18.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticeDS_18_v2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

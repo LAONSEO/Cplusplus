@@ -30,9 +30,9 @@ int main()
 	//cBst.PracticeDS_18_insert(4);
 	//cBst.PracticeDS_18_insert(2);
 	//cBst.PracticeDS_18_insert(7);
-	//cBst.print();
+	//cBst.PracticeDS_18_print();
 	//cBst.PracticeDS_18_erase(4);
 	//cBst.PracticeDS_18_erase(2);
 	//cBst.PracticeDS_18_erase(7);
-	//cBst.print();
+	//cBst.PracticeDS_18_print();
 }

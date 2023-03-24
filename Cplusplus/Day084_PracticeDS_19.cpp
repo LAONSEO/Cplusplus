@@ -1,4 +1,4 @@
-// PracticeDS_19.cpp : singleton.
+// PracticeDS_19.cpp : static in class.
 
 class PracticeDS_19_C_DATA
 {

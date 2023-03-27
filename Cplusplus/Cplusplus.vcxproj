@@ -286,6 +286,14 @@
     <ClCompile Include="Day084_PracticeDS_19.cpp" />
     <ClCompile Include="Day085_PracticeDS_20.cpp" />
     <ClCompile Include="PracticeDS_20.cpp" />
+    <ClCompile Include="PracticeDS_21_base.cpp" />
+    <ClCompile Include="PracticeDS_21_base_DoughNormal.cpp" />
+    <ClCompile Include="PracticeDS_21_base_DoughThin.cpp" />
+    <ClCompile Include="PracticeDS_21_deco.cpp" />
+    <ClCompile Include="PracticeDS_21_deco_cheese.cpp" />
+    <ClCompile Include="PracticeDS_21_deco_potato.cpp" />
+    <ClCompile Include="PracticeDS_21_deco_tomato.cpp" />
+    <ClCompile Include="Day086_PracticeDS_21.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_15.h" />
@@ -326,6 +334,13 @@
     <ClInclude Include="PracticeDS_18.h" />
     <ClInclude Include="PracticeDS_18_v2.h" />
     <ClInclude Include="PracticeDS_20.h" />
+    <ClInclude Include="PracticeDS_21_base.h" />
+    <ClInclude Include="PracticeDS_21_base_DoughNormal.h" />
+    <ClInclude Include="PracticeDS_21_base_DoughThin.h" />
+    <ClInclude Include="PracticeDS_21_deco.h" />
+    <ClInclude Include="PracticeDS_21_deco_cheese.h" />
+    <ClInclude Include="PracticeDS_21_deco_tomato.h" />
+    <ClInclude Include="PracticeDS_21_deco_potato.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

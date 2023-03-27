@@ -492,6 +492,30 @@
     <ClCompile Include="PracticeDS_20.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="PracticeDS_21_base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PracticeDS_21_base_DoughNormal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PracticeDS_21_base_DoughThin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PracticeDS_21_deco.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PracticeDS_21_deco_cheese.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PracticeDS_21_deco_tomato.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PracticeDS_21_deco_potato.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day086_PracticeDS_21.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_2.h">
@@ -606,6 +630,27 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="PracticeDS_20.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticeDS_21_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticeDS_21_base_DoughNormal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticeDS_21_base_DoughThin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticeDS_21_deco.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticeDS_21_deco_cheese.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticeDS_21_deco_tomato.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticeDS_21_deco_potato.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

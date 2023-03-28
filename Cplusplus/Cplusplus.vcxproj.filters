@@ -516,6 +516,24 @@
     <ClCompile Include="Day086_PracticeDS_21.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="PracticeDS_22_duck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PracticeDS_22_move.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PracticeDS_22_sound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PracticeDS_22_duckFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PracticeDS_22_factoryMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day087_PracticeDS_22.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_2.h">
@@ -651,6 +669,21 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="PracticeDS_21_deco_potato.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticeDS_22_duck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticeDS_22_duckFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticeDS_22_factoryMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticeDS_22_move.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticeDS_22_sound.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

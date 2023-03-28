@@ -294,6 +294,12 @@
     <ClCompile Include="PracticeDS_21_deco_potato.cpp" />
     <ClCompile Include="PracticeDS_21_deco_tomato.cpp" />
     <ClCompile Include="Day086_PracticeDS_21.cpp" />
+    <ClCompile Include="PracticeDS_22_duck.cpp" />
+    <ClCompile Include="PracticeDS_22_duckFactory.cpp" />
+    <ClCompile Include="PracticeDS_22_factoryMgr.cpp" />
+    <ClCompile Include="PracticeDS_22_move.cpp" />
+    <ClCompile Include="PracticeDS_22_sound.cpp" />
+    <ClCompile Include="Day087_PracticeDS_22.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_15.h" />
@@ -341,6 +347,11 @@
     <ClInclude Include="PracticeDS_21_deco_cheese.h" />
     <ClInclude Include="PracticeDS_21_deco_tomato.h" />
     <ClInclude Include="PracticeDS_21_deco_potato.h" />
+    <ClInclude Include="PracticeDS_22_duck.h" />
+    <ClInclude Include="PracticeDS_22_duckFactory.h" />
+    <ClInclude Include="PracticeDS_22_factoryMgr.h" />
+    <ClInclude Include="PracticeDS_22_move.h" />
+    <ClInclude Include="PracticeDS_22_sound.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

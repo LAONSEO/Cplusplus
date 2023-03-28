@@ -18,15 +18,15 @@ int main()
 
 	PracticeDS_21_C_BASE* pBase{};
 
-	pBase = new Prac;
+	pBase = new PracticeDS_21_C_base_DoughThin{};
 
 	pBase = new PracticeDS_21_C_TOMATO(pBase);
 	pBase = new PracticeDS_21_C_POTATO(pBase);
 	pBase = new PracticeDS_21_C_CHEESE(pBase);
 	pBase = new PracticeDS_21_C_CHEESE(pBase);
 
-	pBase->printName();
-	printf("가격 %d\n", pBase->getCost());
+	pBase->PracticeDS_21_printName();
+	printf("가격 %d\n", pBase->PracticeDS_21_getCost());
 
 	delete pBase;
 }

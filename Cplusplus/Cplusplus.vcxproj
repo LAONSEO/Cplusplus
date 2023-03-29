@@ -300,6 +300,8 @@
     <ClCompile Include="PracticeDS_22_move.cpp" />
     <ClCompile Include="PracticeDS_22_sound.cpp" />
     <ClCompile Include="Day087_PracticeDS_22.cpp" />
+    <ClCompile Include="Day088_PracticeDS_24.cpp" />
+    <ClCompile Include="Day088_PracticeDS_23.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_15.h" />

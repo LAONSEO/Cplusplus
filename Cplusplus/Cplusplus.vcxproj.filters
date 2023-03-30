@@ -540,6 +540,12 @@
     <ClCompile Include="Day088_PracticeDS_23.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day089_PracticeDS_25.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day089_PracticeDS_26_NumberBaseball.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_2.h">

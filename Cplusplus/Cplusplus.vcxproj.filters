@@ -543,7 +543,13 @@
     <ClCompile Include="Day089_PracticeDS_25.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day089_PracticeDS_26_NumberBaseball.cpp">
+    <ClCompile Include="Day089-90_PracticeDS_26_NumberBaseball.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PracticeDS_26_baseball.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PracticeDS_26_table.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -696,6 +702,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="PracticeDS_22_sound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticeDS_26_baseball.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticeDS_26_table.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

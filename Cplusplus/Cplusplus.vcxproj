@@ -303,7 +303,9 @@
     <ClCompile Include="Day088_PracticeDS_24.cpp" />
     <ClCompile Include="Day088_PracticeDS_23.cpp" />
     <ClCompile Include="Day089_PracticeDS_25.cpp" />
-    <ClCompile Include="Day089_PracticeDS_26_NumberBaseball.cpp" />
+    <ClCompile Include="Day089-90_PracticeDS_26_NumberBaseball.cpp" />
+    <ClCompile Include="PracticeDS_26_baseball.cpp" />
+    <ClCompile Include="PracticeDS_26_table.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_15.h" />
@@ -356,6 +358,8 @@
     <ClInclude Include="PracticeDS_22_factoryMgr.h" />
     <ClInclude Include="PracticeDS_22_move.h" />
     <ClInclude Include="PracticeDS_22_sound.h" />
+    <ClInclude Include="PracticeDS_26_baseball.h" />
+    <ClInclude Include="PracticeDS_26_table.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

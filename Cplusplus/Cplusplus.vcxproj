@@ -204,6 +204,7 @@
     <ClCompile Include="Day046_PracticeClass_5.cpp" />
     <ClCompile Include="Day053_PracticeClass_21.cpp" />
     <ClCompile Include="Day075-76_PracticeDS_15.cpp" />
+    <ClCompile Include="Day091_PracticeDS_27_template_func.cpp" />
     <ClCompile Include="PracticeClass_15.cpp" />
     <ClCompile Include="PracticeClass_17.cpp" />
     <ClCompile Include="PracticeClass_2.cpp" />

@@ -59,6 +59,44 @@ void PracticeDS_26_C_BASEBALL::inputData(int* pNumber, int nNumberLength)
 	delete[] pBall;
 }
 
+void PracticeDS_26_C_BASEBALL::run()
+{
+	int* pInput = new int[m_nTableLength] {};
+
+	int arResult[(int)PracticeDS_26_C_TABLE::E_STATE::E_MAX]{};
+	while (arResult[(int)PracticeDS_26_C_TABLE::E_STATE::E_STRIKE] < m_nTableLength)
+	{
+		for (int i = 0; i < (int)PracticeDS_26_C_TABLE::E_STATE::E_MAX; i++)
+		{
+			arResult[i] = 0;
+		}
+		int nFlagCount{};
+		while (nFlagCount < m_nTableLength)
+		{
+			printf("0부터 9까지 중 서로 다른 숫자를 입력하시오.\n");
+			nFlagCount = 0;
+			int arFlag[10]{};
+			for (int i = 0; i < m_nTableLength; i++)
+			{
+				scanf_s("%d", &pInput[i]);
+				arFlag[pInput[i]] = 1;
+			}
+			for (int i = 0; i < 10; i++)
+			{
+				nFlagCount += arFlag[i];
+			}
+		}
+
+		for (int i = 0; i < m_nTableLength; i++)
+		{
+			arResult[(int)m_pTable[i].PracticeDS_26_getResult(pInput[i])]++;
+		}
+		printf("아웃 : %d\n", arResult[(int)PracticeDS_26_C_TABLE::E_STATE::E_OUT]);
+		printf("볼 : %d\n", arResult[(int)PracticeDS_26_C_TABLE::E_STATE::E_BALL]);
+		printf("스트라이크 : %d\n", arResult[(int)PracticeDS_26_C_TABLE::E_STATE::E_STRIKE]);
+	}
+}
+
 void PracticeDS_26_C_BASEBALL::PracticeDS_26_init(int nNumberCount)
 {
 	m_nTableLength = nNumberCount;

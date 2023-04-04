@@ -15,6 +15,7 @@ private:
 	void swapData(int& nDst, int& nSrc);
 	void createNumber(int* pNumber, int nNumberLength);
 	void inputData(int* pNumber, int nNumberLength);
+	void run();
 
 public:
 	PracticeDS_26_C_BASEBALL() = default;

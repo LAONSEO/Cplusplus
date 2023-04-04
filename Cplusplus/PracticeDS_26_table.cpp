@@ -11,6 +11,11 @@ void PracticeDS_26_C_TABLE::PracticeDS_26_init(int nStrike, int* pBall, int nBal
     }
 }
 
+PracticeDS_26_C_TABLE::E_STATE PracticeDS_26_C_TABLE::PracticeDS_26_getResult(int nNumber)
+{
+    return m_arState[nNumber];
+}
+
 void PracticeDS_26_C_TABLE::PracticeDS_26_print()
 {
     for (int i = 0; i < 10; i++)

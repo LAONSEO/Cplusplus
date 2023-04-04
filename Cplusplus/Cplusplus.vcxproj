@@ -307,7 +307,8 @@
     <ClCompile Include="Day089-90_PracticeDS_26_NumberBaseball.cpp" />
     <ClCompile Include="PracticeDS_26_baseball.cpp" />
     <ClCompile Include="PracticeDS_26_table.cpp" />
-    <ClCompile Include="Day092_PracticeDS_27_template_func_specific.cpp" />
+    <ClCompile Include="Day092_PracticeDS_28_template_func_specific.cpp" />
+    <ClCompile Include="Day092_PracticeDS_29_template_class_specific.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_15.h" />

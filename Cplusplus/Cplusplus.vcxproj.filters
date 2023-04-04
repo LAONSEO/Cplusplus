@@ -555,7 +555,10 @@
     <ClCompile Include="Day091_PracticeDS_27_template_func.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day092_PracticeDS_27_template_func_specific.cpp">
+    <ClCompile Include="Day092_PracticeDS_28_template_func_specific.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day092_PracticeDS_29_template_class_specific.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

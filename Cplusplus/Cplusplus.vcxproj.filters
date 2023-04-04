@@ -555,6 +555,9 @@
     <ClCompile Include="Day091_PracticeDS_27_template_func.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day092_PracticeDS_27_template_func_specific.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_2.h">

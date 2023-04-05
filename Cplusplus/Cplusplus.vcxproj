@@ -309,6 +309,7 @@
     <ClCompile Include="PracticeDS_26_table.cpp" />
     <ClCompile Include="Day092_PracticeDS_28_template_func_specific.cpp" />
     <ClCompile Include="Day092_PracticeDS_29_template_class_specific.cpp" />
+    <ClCompile Include="Day093_PracticeDS_30.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_15.h" />

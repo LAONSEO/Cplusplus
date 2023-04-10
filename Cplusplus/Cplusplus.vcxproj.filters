@@ -564,6 +564,15 @@
     <ClCompile Include="Day093_PracticeDS_30.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day094_PracticeDS_31_STL_set.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day094_PracticeDS_32_STL_string.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day094_PracticeDS_33_STL_vector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_2.h">

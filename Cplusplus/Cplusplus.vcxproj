@@ -205,6 +205,7 @@
     <ClCompile Include="Day053_PracticeClass_21.cpp" />
     <ClCompile Include="Day075-76_PracticeDS_15.cpp" />
     <ClCompile Include="Day091_PracticeDS_27_template_func.cpp" />
+    <ClCompile Include="Day094_PracticeDS_33_STL_vector.cpp" />
     <ClCompile Include="PracticeClass_15.cpp" />
     <ClCompile Include="PracticeClass_17.cpp" />
     <ClCompile Include="PracticeClass_2.cpp" />
@@ -310,6 +311,8 @@
     <ClCompile Include="Day092_PracticeDS_28_template_func_specific.cpp" />
     <ClCompile Include="Day092_PracticeDS_29_template_class_specific.cpp" />
     <ClCompile Include="Day093_PracticeDS_30.cpp" />
+    <ClCompile Include="Day094_PracticeDS_31_STL_set.cpp" />
+    <ClCompile Include="Day094_PracticeDS_32_STL_string.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_15.h" />

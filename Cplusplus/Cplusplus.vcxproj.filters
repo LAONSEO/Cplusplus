@@ -576,6 +576,15 @@
     <ClCompile Include="Day095_PracticeDS_34_STL_map.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day096_PracticeDS_35_STL_map_Mgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PracticeDS_35_student.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PracticeDS_35_studentMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PracticeClass_2.h">
@@ -732,6 +741,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="PracticeDS_26_table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticeDS_35_student.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticeDS_35_studentMgr.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
